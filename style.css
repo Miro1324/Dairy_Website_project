@@ -1,0 +1,974 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import 'utility.css';
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+.header{
+    height: 13vh;
+    width: 100%;
+    /* background: url(../img/DAIRY.jpg); */
+    /* background: linear-gradient(rgb(205, 249, 249),aliceblue);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    box-shadow : 0 0.5rem 1.5rem rgba(0 , 0, 0 , 0.06);
+    z-index: 999;
+    position: sticky;
+    top:  0;
+    left: 0;
+    background: aliceblue;
+}
+
+:root{
+    font-size: 62.5%;
+}
+ .header .main-content{
+    width: 1200px;
+    margin:auto;
+    background-color: aliceblue;
+}
+.navbar{
+    float: right;
+    list-style:none ;
+    margin-top: 3rem;
+}
+.navbar li{
+    display: inline-block;
+    border: solid transparent;
+}
+.navbar li a{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 2rem  ;  
+}
+.navbar li a:hover{
+    background: rgb(105, 225, 227) ;
+    border-bottom:  0.6rem solid black;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+}
+.header .logo img{
+    width: 6rem;
+    float: left;
+    /* margin-left:60rem; */
+    margin-top: 1rem;
+    border: transparent;
+    border-radius: 30%;
+    height: auto;
+}
+.header .logo H1{
+    width: 4rem;
+    float: left;
+    /* margin-left:60rem; */
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.header .logo H1 span{
+    font-size:5rem ;
+    color:  rgb(105, 225, 227);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* ##################################sub header##################################################### */
+.sub-header{
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: url(../img/png\ milk.png); */
+    
+    background:linear-gradient(rgb(205, 249, 249),aliceblue);
+
+
+}
+.sub-headeR pra{
+    background: url("../img/PNG\ 2.PNG");
+}
+.heading{
+    position: absolute;
+    width:130rem;
+    height: 30rem;
+    margin: 20% 30%;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: row; */
+}
+.heading .container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:-21rem;
+    margin-left: -20rem;
+}
+.heading .container1 p{
+ align-items: center;
+}
+/* .heading .img-1{
+    background-color: white;
+} */
+.heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 500;
+    color: rgb(11, 61, 198);
+    margin-bottom: 2rem;
+}
+.heading h1 SPAN{
+    font-size: 6rem;
+    color:rgb(15, 64, 200);
+}
+.heading p{
+    width:60%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+    margin-left:15rem;
+    text-transform: capitalize;
+}
+.heading a{
+    text-decoration: none;
+    padding: 1rem 2.5em;
+    text-transform: uppercase;
+    border-bottom: solid 0.6rem black ;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 2rem;
+    color: blue;
+    font-weight: 500;
+    
+}
+
+.heading a:link{
+    color: green;
+}
+.heading a:visited{
+    color: blue;
+}
+.heading a:hover{
+    background: rgb(105, 225, 227) ;
+    transition: 0.5s ease;
+
+}
+.heading a:active{
+    color: aliceblue;
+}
+
+.service{
+    padding-top:  6rem;
+    padding-bottom:6rem;
+    /* background-color:#57c0d5d6 ; */
+    height: 95vh;
+    box-sizing: border-box;
+
+}
+.service .img img{
+    width: 60rem;
+}
+.service .img img{
+    padding-right: 4rem;
+}
+.service .hp{
+    padding-left: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+   
+}
+.service .hp h2{
+    font-size: 3rem;
+    font-weight:600;
+    padding-bottom: 2rem;
+}
+.service .hp p{
+    font-size: 1.5rem;
+    font-weight:400;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+.service  img{
+    /* text-decoration: none;
+    font-size: 3rem;
+    display: inline-block;
+    margin-left: 6rem;
+    border: 0.6rem solid black;
+    border-image: round; */
+    /* background-color: black; */
+    width: 15rem;
+}
+
+.container2{
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+.container2 .item-1 img{
+    width: 220px;
+    height: 220px;
+    border: solid black 0.5rem;
+    border-radius: 50%;
+}
+ .container2 .item-2 img{
+    width: 220px;
+    height: 220px;
+    border: solid black 0.5rem;
+    border-radius: 50%;
+}
+.container2 .item-3 img{
+    width: 220px;
+    height: 220px;
+    border: solid black 0.5rem;
+    border-radius: 50%;
+}
+
+ .container2 .item-4 img{
+    width: 220px;
+    height: 220px;
+    border: solid black 0.5rem;
+    border-radius: 50%;
+}
+.container2 .item-1 h1{
+    text-align: center;
+    color: rgb(11, 61, 198);
+    font-size: 2.5rem;
+}
+.container2 .item-2 h1{
+    text-align: center;
+    color: rgb(11, 61, 198);
+    font-size: 2.5rem;
+}
+.container2 .item-3 h1{
+    text-align: center;
+    color:rgb(11, 61, 198);
+    font-size: 2.5rem;
+}
+.container2 .item-4 h1{
+    text-align: center;
+    color: rgb(11, 61, 198);
+    font-size: 2.5rem;
+}
+.container2 .item-1 p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.container2 .item-2 p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.container2 .item-3 p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.container2 .item-4 p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.container2 .item-1{
+    border: 0.5rem none;
+    padding: 7rem 7rem 2rem 7rem;
+    background-color: aliceblue;
+}
+.container2 .item-2{
+    border: 0.5rem solid none;
+    padding: 7rem 7rem 2rem 7rem;
+    background-color: aliceblue;
+}
+.container2 .item-3{
+    border: none;
+    padding: 7rem 7rem 2rem 7rem;
+    background-color: aliceblue;
+}
+.container2 .item-4{
+    border: 0.5rem none;
+    padding: 7rem 7rem 2rem 7rem;
+    background-color: aliceblue;
+
+}
+.container2 .item-1:hover{
+    background: rgb(205, 249, 249);
+}
+.container2 .item-2:hover{
+    background: rgb(205, 249, 249);
+}
+.container2 .item-3:hover{
+    background: rgb(205, 249, 249);
+}
+.container2 .item-4:hover{
+    background: rgb(205, 249, 249);
+}
+.container2 .item-1 h1:hover{
+    color: rgb(111, 115, 176);
+}
+.container2 .item-2 h1:hover{
+    color: rgb(111, 115, 176);
+}
+.container2 .item-3 h1:hover{
+    color: rgb(111, 115, 176);
+}
+.container2 .item-4 h1:hover{
+    color:    rgb(111, 115, 176);
+}
+.service .hp{
+    border: 0.5rem none;
+    padding-bottom:9rem ;
+    padding-top: 9rem;
+    margin-bottom:-0.4rem ;
+    padding-right: 2rem;
+    background-color:  aliceblue;
+}
+.service .hp:hover{
+    background: rgb(205, 249, 249);
+}
+.service .hp span{
+    color: rgb(11, 61, 198);
+}
+
+.location{
+    padding-top:  20rem;
+    /* background-color:#57c0d5d6 ; */
+    height: 95vh;
+    box-sizing: border-box;
+}
+
+.container3 .box-1,
+.container3 .box-2,
+.container3 .box-3{
+    background:rgb(205, 249, 249);
+    border: 0.2rem solid silver;
+    padding: 4rem;
+    padding-bottom: 8rem;
+    border-bottom: 1rem solid rgb(11, 61, 198);
+    box-shadow: 2px 2px 8px black;
+}
+.container3 .box-1:hover{
+    box-shadow: 5px 5px 16px black;
+
+}
+.container3 .box-2:hover{
+    box-shadow: 5px 5px 16px black;
+
+}
+.container3 .box-3:hover{
+    box-shadow: 5px 5px 16px black;
+
+}
+.container3 .box-3{
+    margin-right: -0.1rem;
+}
+
+.container3 div{
+margin-right: 2rem;
+
+}
+
+.container3 .box-1 h1{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    color: rgb(11, 61, 198);
+}
+ .container3 .box-2 h1{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    color: rgb(11, 61, 198);
+}
+.container3 .box-3 h1{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    color: rgb(11, 61, 198);
+}
+.container3 .box-1 h1:hover{
+    color:  #216cb3d6;
+}
+
+.container3 .box-2 h1:hover{
+    color: #216cb3d6;
+}
+
+.container3 .box-3 h1:hover{
+    color:  #216cb3d6;
+}
+.container3 .box-1 p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+
+
+}
+.container3 .box-2 p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    
+}
+.container3 .box-3 p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+   
+}
+.container3{
+    border: 0.6rem none;
+    padding: 5rem;
+    background-color: aliceblue;
+   
+} 
+/* .container4 .box-1 a
+{
+    text-align: center;
+} */
+.container4 {
+    /* border: 0.6rem solid black; */
+}
+.container4 .img img{
+    width:30rem;
+}
+.information .container4 .box{
+    padding-top: 5rem;
+    height: 170vh;
+    box-sizing: border-box;
+    background-color:  aliceblue;
+    margin-top: 5rem;
+    border-top: 0.4rem solid black;
+    
+  
+
+}
+.information .box-1{
+    background-color:aliceblue;
+    margin-bottom: -25rem;
+}
+.information .box-2{
+    margin-bottom: -10rem;
+    background-color: aliceblue;
+}
+.information .box-3{
+    margin-top: -25rem;
+    background-color:aliceblue;
+}
+
+.information .box-1 .img img{
+    padding-right: 4rem;
+}
+.information .box-2 .img img{
+    padding-right: 4rem;
+}
+.information .box-3 .img img{
+    padding-right: 4rem;
+}
+.information .box-1 .farm{
+    padding-left: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    margin-bottom: 9rem;
+    margin-left: -2rem;
+    
+    
+}
+.information .box-2 .farm{
+    padding-left: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    margin-bottom: 9rem;
+    margin-left: -2rem;
+    
+    
+}
+.information .box-3 .farm{
+    padding-left: 4rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    margin-bottom: 9rem;
+    margin-left: -2rem;
+    
+    
+}
+.information .farm h2{
+    font-size: 3rem;
+    font-weight:600;
+    padding-bottom: 2rem;
+}
+.information .farm p{
+    font-size: 1.5rem;
+    font-weight:400;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+.information div{
+    /* background:rgb(205, 249, 249); */
+    /* border: 0.2rem solid silver; */
+    padding: 4rem;
+    padding-bottom: 8rem;
+    
+}
+/* ##################################################################################################### */
+.trail{
+    height: 110vh;
+    box-sizing: border-box;
+    padding: 3rem;
+    /* background: linear-gradient(rgb(205, 249, 249),aliceblue); */
+
+
+}
+ .container5 {
+    background: linear-gradient(rgb(205, 249, 249),aliceblue);
+
+}
+
+.trail .top h1{
+    font-size: 2.5rem;
+}
+.trail .top .h1 span{
+    color: rgb(11, 61, 198);
+}
+.trail .form1{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(rgb(205, 249, 249),aliceblue);
+
+
+}
+.trail .container5 {
+    padding: 2rem 4rem 1rem 4rem;
+    border-bottom: 0.2rem solid black;
+    background-color:aliceblue;
+}
+.trail .container5 p{
+    padding-left: 2rem;
+    font-size: 1.8rem; 
+    width: 80%;
+    text-transform: capitalize;
+}
+.trail .left{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border: transparent;
+    background-color: white;
+    padding:5rem ;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+.trail .left p{
+    font-size: 1.8rem;
+    text-transform:capitalize;
+    padding-bottom: 2rem;
+}
+.trail .left form{
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.trail .right{
+    padding: 2rem;
+    margin-left: -6rem;
+}
+.trail .sub-form{
+    padding: 2rem;
+}
+.trail .right img{
+    margin-right: 2rem;
+    width: 80rem;
+    padding-left: 30rem ;
+}
+.trail .form1{
+    padding-top: 5rem;
+  
+}
+.trail .form .lable-1{
+    font-size: 1.8;
+}
+.trail .gender-detailes{
+    /* padding: 1rem; */
+   
+}
+.trail .gender-detailes h1{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem ;
+    
+}
+.trail .gender-detailes .xyz .lable-2{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.trail .gender-detailes .xyz .sign-in{
+    padding-left:6rem;
+    padding-right: 6rem;
+    margin-top: 1rem;
+    margin-left:1.9rem;
+    color: #216cb3d6;
+    border-radius: 2rem;
+}
+/* ################################################################################################## */ 
+
+.feedback{
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10rem;
+    margin-top:-10rem;
+   
+} 
+.feedback h1{
+padding-bottom: 0.5rem;
+text-transform: uppercase;
+font-size: 2.5rem;
+font-weight: 500;
+/* border-bottom: 0.3rem solid black; */
+padding-top: 5rem;
+background: aliceblue;
+}
+.feedback h1::after{
+    content: '';
+    display: block;
+    border: 0.3rem  solid #216cb3d6;
+    width: 30rem;
+}
+/* .feedback h1:hover{
+    border-bottom: 0.3rem solid blue;
+} */
+.feedback .sub-feedback{
+    justify-content: space-around;
+}
+.feedback .sub-feedback img{
+    width: 10rem;
+    height: 10rem;
+    /* padding-top: 6rem;
+    padding-bottom: 1rem; */
+    margin-left:7rem;
+
+    border: 0.5REM SOLID #216cb3d6;
+    border-radius: 13rem;
+
+}
+.feedback .sub-feedback p{
+    padding-bottom: 8rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    width: 70%;
+    margin-left:7rem;
+
+}
+
+
+
+/* ##################################################################################################### */
+.map-contact{
+    height: 90vh;
+    box-sizing: border-box;
+    padding: 3rem;
+    margin-top: -10rem;
+} 
+.map-contact .container6 {
+    background-color: aliceblue;
+}
+.map-contact .left-map{
+    padding: 2rem;
+}
+.map-contact .container6 .right-contact h1{
+    font-size:3rem;
+text-transform: capitalize;
+padding-bottom: 2rem;
+text-align: center;
+
+}
+
+    
+
+.map-contact .container6 .right-contact p{
+    font-size:1.8rem;
+text-transform: capitalize;
+padding-bottom: 2rem;
+text-align: center;
+}
+.map-contact .container6 .right-contact a{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #216cb3d6;
+}
+.map-contact .container6 .right-contact a:hover{
+    color:  #216cb3d6;
+}
+
+/* #####################################################################################################
+} */
+
+.footer1{
+    background-color: rgb(205, 249, 249);
+    min-height: 50vh;
+    margin-top: -9rem;
+    color: black;
+    box-sizing: border-box;
+}
+.footer1 .left-footer{
+    margin-top: -7rem;
+}
+.footer1 .right-footer{
+    margin-top: -23rem;
+}
+
+
+.footer1 .left-footer{
+    width: 50%;
+}
+.footer1 .left-footer h1{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+ 
+.footer1 .left-footer span{
+    color: rgb(11, 61, 198);
+}
+.footer1 .left-footer .p1{
+    padding-bottom: 1rem;
+    color:  rgb(11, 61, 198);
+    padding-bottom: 2rem;
+}
+.footer1 .left-footer .p2{
+    padding-bottom: 2rem;
+    text-transform: lowercase;
+    word-spacing: 0.2rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.footer1 .right-footer h1{
+    font-weight:500;
+    text-transform: lowercase;
+    word-spacing: 0.4rem;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    border-bottom: 0.5rem transparent;
+    color:rgb(11, 61, 198) ;
+}
+.footer1 .right-footer h1:hover{
+    border-bottom:0.3rem solid rgb(11, 61, 198);
+}
+.footer1 .social-links i{
+    padding-right: 1rem;
+    padding-top: 2rem;
+    
+}
+.footer1 .social-links i:hover{
+    color:  rgb(11, 61, 198);
+}
+.footer2 .left-footer{
+    width: 100%;
+}
+/* ############################about-page############################################################### */
+.about-body .section-about{
+    height: 125vh;
+    max-width: 70%;
+    background-color: aliceblue;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  
+ 
+    
+    
+}
+.section-about h1{
+    text-transform: capitalize;
+   
+    font-size: 3rem;
+    font-weight: 500;
+    border-bottom: 0.3rem solid rgb(11, 61, 198);
+    padding-top: 4rem;
+
+}
+.about-body h5{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+    text-align: center;
+    color:  #216cb3d6;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.about-body h5 span{
+    font-size: 3rem;
+
+}
+.about-body .div-2 p{
+    font-size: 2.2rem;
+}
+.section-about p{
+    padding:2rem 2rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+.section-about p:hover{
+    color:  #216cb3d6;
+    transition: 0.5s ease;
+}
+.section-about .div-1 div{
+    padding:3rem 0rem;
+
+}
+.section-about h2{
+    padding-bottom: 2rem;
+}
+.section-about .div-2 div{
+    padding: 3rem 0rem;
+}
+.section-about h3{
+    font-size: 2.0rem;
+    padding: 0rem 2rem;
+}
+.section-about h4{
+
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.div-3{
+    background-color: rgb(171, 181, 212);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.section-about a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+    background-color: rgb(200, 205, 210);
+    border-radius: 1rem;
+}
+.section-about a:hover{
+    background: aqua;
+    transition: 0.8s ease;
+}
+.about-body .information{
+    padding: 2rem;
+}
+
+/* ################################contact####################################### */
+.contact-body{
+     /* background:  rgb(200, 205, 210); */
+     background-image: url("../img/hero-icon-bg.svg");
+}
+.main-body{
+    background-image: url("../img/hero-icon-bg.svg");
+}
+.about-body{
+    background-image: url("../img/hero-icon-bg.svg");
+}
+/* ######################################product-about################################ */
+.product-body{
+    background-image: url("../img/hero-icon-bg.svg");
+}
+.product-about{
+    height: 90vh;
+   
+
+}
+.product-body .product-about .head{
+    height: 10vh;
+    max-width: 1600px;
+    width: 110%;
+    margin: 0 auto;
+    background: aliceblue;
+    padding: 2rem;
+
+}
+.product-body .product-about .head h2{
+ display: block;   
+font-size: 3rem;
+text-transform: capitalize;
+/* text-align: center; */
+border-bottom: 0.3rem transparent;
+box-sizing: 10rem;
+text-align: center;
+
+padding-bottom: 0.5rem;
+
+}
+.product-body .product-about .head h2:hover{
+    color: blue;
+    transition: 0.6s ease;
+
+    
+}
+/* .product-body .product-about .head p{
+    font-size: 2.0rem;
+    text-transform: capitalize;
+} */
+.product{
+    margin-top: -3rem;
+}
+.product-about .offer-product {
+    height: 45vh;
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+    background: aliceblue;
+    padding: 2rem;
+    
+}
+.product-about .item-1 .price{
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-1 .stars{
+    margin-left: 6rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-2 .price{
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-2 .stars{
+    margin-left: 6rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-3 .price{
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-3 .stars{
+    margin-left: 6rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-4 .price{
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.product-about .item-4 .stars{
+    margin-left: 6rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* #############################################services########################## */
+.services{
+    height: 80vh;
+    padding: 2rem;
+    background-image: url("../img/hero-icon-bg.svg");
+
+}
